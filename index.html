@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawn Lead OKC - Emergency Deployment</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background: #3498db;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .status {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .cta {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lawn Lead OKC</h1>
+        <p>Connecting homeowners within Oklahoma City</p>
+    </header>
+    
+    <div class="status success">
+        <h2>✅ Site Successfully Deployed</h2>
+        <p>This is an emergency deployment. The full site will be restored shortly.</p>
+        <p><strong>Deployment Time:</strong> <span id="time"></span></p>
+    </div>
+    
+    <div class="cta">
+        <h2>Get Free Lawn Care Quotes!</h2>
+        <p>Connect with top-rated lawn care providers in Oklahoma City</p>
+        <button style="padding: 10px 20px; font-size: 16px; background: white; color: #e74c3c; border: none; border-radius: 5px; cursor: pointer;">
+            Get Your Free Quote Now
+        </button>
+    </div>
+    
+    <main>
+        <h2>How It Works</h2>
+        <ol>
+            <li><strong>Submit Your Request</strong> - Tell us about your lawn care needs</li>
+            <li><strong>Get Matched</strong> - We connect you with 3-5 qualified providers</li>
+            <li><strong>Compare Quotes</strong> - Receive competitive quotes within 24 hours</li>
+            <li><strong>Choose Your Provider</strong> - Select the best fit for your needs and budget</li>
+        </ol>
+        
+        <h2>Why Choose Lawn Lead OKC?</h2>
+        <ul>
+            <li>Free, no-obligation quotes</li>
+            <li>Vetted and licensed providers</li>
+            <li>Service all across Oklahoma City</li>
+            <li>Customer satisfaction guarantee</li>
+        </ul>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Lawn Lead OKC. All rights reserved.</p>
+        <p>Phone: (405) 555-LEAD | Email: support@lawnleadokc.com</p>
+    </footer>
+    
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
